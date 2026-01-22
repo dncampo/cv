@@ -1,0 +1,122 @@
+\documentclass[10pt,a4paper]{moderncv}
+\usepackage[utf8]{inputenc}
+\usepackage{datetime}
+\usepackage[scale=0.83]{geometry}
+%\usepackage[hidelinks]{hyperref}
+\usepackage{xurl}
+\usepackage{qrcode}
+\usepackage{array}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+\renewcommand{\familydefault}{\rmdefault}
+
+\newcommand{\FICHUNL}{Fac. de Ing. y Cs. H\'{\i}dricas, Universidad Nacional del Litoral}
+\newcommand{\FICHUNLSHORT}{FICH-UNL}
+\newcommand{\SFAR}{Santa Fe, Argentina}
+\newcommand{\UPM}{Universidad Polit\'ecnica de Madrid (UPM), Spain}
+\newcommand{\UTN}{Universidad Tecnol\'ogica Nacional}
+\newcommand{\FRSFUTN}{Facultad Regional Santa Fe, \UTN}
+
+\newdateformat{monthyeardate}{\monthname[\THEMONTH] \THEYEAR}
+
+
+\name{David}{Campo}
+\makeatletter
+\renewcommand*{\makecvtitle}{%
+	\noindent
+	\parbox[t]{0.10\textwidth}{%
+%		{\fontsize{32}{34}\LARGE\bfseries\color{color1}\@firstname~\@familyname}%\\
+		{\fontsize{28}{28}\selectfont\bfseries\color{color1} \@firstname~\@familyname}
+	}%
+	\hfill
+	\parbox[t]{0.40\textwidth}{%
+		\raggedleft\small
+		Argentine / Italian\par
+		Based in France\par
+		\href{mailto:dncampo@gmail.com}{dncampo@gmail.com}\par
+		\href{http://github.com/dncampo}{github.com/dncampo}\par
+		\href{http://linkedin.com/in/davidnazarenocampo}{in/davidnazarenocampo}\par
+	}%
+	\par\vspace{0.1em}%
+	\par\vspace{1.1em}%
+}
+\makeatother
+
+
+\begin{document}
+	\maketitle
+	\section{Professional Summary}
+	Senior AI Engineer and Technical Evangelist with a PhD background in Computational Intelligence and ongoing PhD in Telematics Systems Engineering (UPM). Specialized in Generative AI, Digital Twins, Knowledge Graphs, and FIWARE/NGSI-LD architectures. Chair of the FIWARE AI/ML Task Force, experienced in open-source reference architectures, technical trainings, and applied AI integration for smart solutions.
+	
+	\section{Key Expertise}
+	\cvitem{}{Generative AI (LLMs, RAG) \,\textbar\, Digital Twins \,\textbar\, Knowledge Graphs \& Linked Data \,\textbar\, FIWARE/NGSI-LD \,\textbar\, Distributed Systems \,\textbar\, MLOps \,\textbar\, Smart Cities / Smart Solutions}
+	
+	\section{Experience}
+	\cventry{11/2022 -- present}{Senior Technical Expert \& AI Advisor}{FIWARE Foundation}{}{}{%
+		\begin{itemize}
+			\item Chair of the FIWARE AI/ML Task Force: roadmap definition, community coordination, webinars and technical dissemination.
+			\item Architecture and integration work on AI/ML and Generative AI within FIWARE smart solutions (NGSI-LD / context-driven patterns).
+			\item Delivery of technical trainings and talks at FIWARE Global Summit and FIWARE webinars.
+	\end{itemize}}{}
+	
+	\cventry{02/2020 -- 08/2021}{Applied Research Engineer}{Onhys}{}{}{%
+		Designed and implemented an integration system for automatic data treatment of crowd behavior, including architecture design, simulator calibration pipelines, and ML-based fusion of heterogeneous sources (video and IoT).}{}
+	
+	\cventry{08/2019 -- 01/2020}{Data Scientist (Consultant)}{Alten}{}{}{Developed ML models for classification and data analysis; produced technical reports for stakeholders.}{}
+	
+	\cventry{2016 -- 2019}{Senior Software Engineer}{Avature / Igara Studio}{}{}{%
+		Software development for SaaS products and C++ tooling, feature design and bug fixing in production environments.}{}
+	
+	\section{Education}
+	\cventry{10/2024 -- present}{PhD in Telematics Systems Engineering}{\UPM}{}{}{Thesis focus: AI-powered Digital Twins using context data, knowledge graphs, and linked data.}{}
+	\cventry{07/2022}{ML \& DL Bootcamp}{Le Wagon, Nice (France)}{}{}{400-hour intensive program in Artificial Intelligence. Project: Deep learning for skin disease detection in images.}{}
+	\cventry{04/2019}{PhD in Engineering}{\FICHUNL, \SFAR}{}{}{Thesis: \href{https://repositoriosdigitales.mincyt.gob.ar/vufind/Record/UNLBT_db00b4b5c36e7748760a073d58c89774}{``Validation of Clustering Algorithms''}. Developed a probabilistic validation index for evaluating overlapping clustering solutions in real-world datasets.}{}
+	\cventry{03/2012}{Systems Engineering}{\FRSFUTN, \SFAR}{}{}{Evaluated clustering quality in bioinformatics datasets using Self-Organizing Maps (SOM).}{}
+
+
+
+	\clearpage
+	\section{Selected Publications}
+	\cventry{2025}{Campo et al.}{Real-time Spatial Retrieval Augmented Generation for Urban Environments}{}{}{arXiv: \href{https://doi.org/10.48550/arXiv.2505.02271}{10.48550/arXiv.2505.02271}. Under major revision at a top-tier AI journal.}{}
+	
+	\cventry{2025}{Fu, Tairan; Campo, David Nazareno; Coronado-Blázquez, Javier; Conde, Javier; Reviriego, Pedro; Lombardi, Fabrizio}{Stochastic Streets: A Walk Through Random LLM Address Generation in Four European Cities}{}{}{Computer, IEEE. DOI: \href{https://doi.org/10.1109/MC.2025.3611067}{10.1109/MC.2025.3611067}. Year: 2025.}{}
+
+	\cventry{2016}{Campo, Stegmayer, Milone}{A new index for clustering validation with overlapped clusters}{}{}{Expert Systems with Applications (Elsevier). DOI: \href{http://dx.doi.org/10.1016/j.eswa.2016.08.021}{10.1016/j.eswa.2016.08.021}.}{}
+	
+	\section{Selected Talks \& Trainings}
+	\cventry{05/2025}{FIWARE Global Summit XI}{Tech Training: ``ML, MLOps \& FIWARE''}{Rabat, Morocco}{}{Slides \& code: \href{https://github.com/dncampo/fgs2025-digit-recognizer-ml/tree/main/slides}{github.com/dncampo/fgs2025-digit-recognizer-ml}.}{}
+	\cventry{05/2025}{FIWARE Global Summit XI}{Tech Training: ``Talking with your Smart Solution''}{Rabat, Morocco}{}{Slides \& code: \href{https://github.com/dncampo/fgs2025-talking-with-smart-solution}{github.com/dncampo/fgs2025-talking-with-smart-solution}.}{}
+	\cventry{09/2024}{FIWARE Global Summit X}{Tech Training: ``Integrating ML models into FIWARE applications''}{Naples, Italy}{}{Slides \& code: \href{https://github.com/dncampo/FGS2024\_ML-training}{github.com/dncampo/FGS2024\_ML-training}.}{}
+	\cventry{09/2024}{FIWARE Global Summit X. Tech and Trends}{Talk: ``Integration of LLMs within the Context Broker''}{Naples, Italy}{}{slides: \href{https://github.com/ging/Poc_LLM_CB_FIWARE-Naples}{https://github.com/ging/Poc\_LLM\_CB\_FIWARE-Naples}.}{}
+	
+	\section{Technical Skills}
+	\cvitem{Programming}{Python, C/C++, Java, Bash, MATLAB/Octave, JavaScript}
+	\cvitem{AI / ML}{Machine Learning, Deep Learning, Clustering, LLMs, RAG, Model Evaluation}
+	\cvitem{Data \& Research}{Data Mining, Experimental Design, Algorithm Validation, Performance Metrics}
+	\cvitem{Mathematics \& Statistics}{Probability, Linear Algebra, Calculus, Optimization, Statistical Analysis}
+	\cvitem{Platforms}{FIWARE, NGSI-LD, Linux, Git, Docker}
+	\cvitem{IoT}{Arduino, Raspberry Pi}
+	\cvitem{Web}{PHP, JavaScript, MySQL (legacy/production experience)}
+	\cvitem{Teaching \& Training}{University-level teaching, technical trainings, online courses, AI/ML workshops}
+
+	
+	\section{Languages}
+	\cvitem{}{Spanish (Native) \,\textbar\, English/French/Italian (Fluent) \,\textbar\, Portuguese (Advanced) \,\textbar\, German (Beginner)}
+	
+	\section{Interests}
+	\cvitem{}{Learning, reading, sports and outdoor activities, languages and cultures, travel, hiking, networking.}
+
+
+\vfill
+\begin{flushright}
+	\setlength{\tabcolsep}{0.6em} % separación horizontal entre columnas
+	\renewcommand{\arraystretch}{1.05} % separación vertical entre líneas del texto
+	
+	\begin{tabular}{@{}>{\raggedleft\arraybackslash}l@{}c@{}}
+		{\small Résumé version: January 2026} & \multirow{3}{*}{\hspace{0.2cm}\qrcode[height=1.2cm]{https://github.com/dncampo/cv/blob/main/full/dncampo_cv_full_en.pdf}}\\
+		{\small Full CV version at:}          & \\
+		{\small \href{https://github.com/dncampo/cv/blob/main/full/dncampo_cv_full_en.pdf}{github.com/dncampo/cv/tree/main/full}} & \\
+	\end{tabular}
+\end{flushright}	
+\end{document}
+
