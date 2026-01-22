@@ -1,0 +1,306 @@
+%% Inicio del archivo `template-es.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[10pt,a4paper]{moderncv}   % opciones posibles incluyen tama\~{A}{\pm}o de fuente ('10pt', '11pt' and '12pt'), tama\~{A}{\pm}o de papel ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' y 'landscape') y familia de fuentes ('sans' y 'roman')
+\usepackage[utf8]{inputenc}
+\usepackage{datetime}
+% temas de moderncv
+\moderncvstyle{classic}                        % las opciones de estilo son 'casual' (por omision),casual, 'classic', 'oldstyle' y 'banking'
+\moderncvcolor{blue}                          % opciones de color 'blue' (por omision), 'orange', 'green', 'red', 'purple', 'grey' y 'black'
+\renewcommand{\familydefault}{\rmdefault}    % para seleccionar la fuente por omision, use '\sfdefault' para la fuente sans serif, '\rmdefault' para la fuente roman, o cualquier nombre de fuente
+
+%\nopagenumbers{}                             % elimine el comentario para suprimir la numeracion automatica de las paginas para CVs mayores a una pagina
+
+% codificacion de caracteres
+\usepackage[utf8]{inputenc}                  % reemplace con su codificacion
+%\usepackage{CJKutf8}                         % si necesita usa CJK para redactar su CV en chino, japones o coreano
+
+% ajustes para los margenes de pagina
+\usepackage[scale=0.83]{geometry}
+\setlength{\hintscolumnwidth}{2.8cm}           % si desea cambiar el ando de la columna para las fechas
+
+% datos personales
+\name{David}{Campo}
+%\title{T\'itulo del CV (opcional)}                   % dato opcional, elimine la linea si no desea el dato
+\address{Argentine / Italian}{}
+%\address{Domingo Silva $1595$ $2^{nd}$, apt. $2$}{3000-Santa Fe-Santa Fe-Argentina}
+% dato opcional, elimine la linea si no desea el dato
+%\phone[mobile]{FR: +33 7 68 22 56 78}% +39 3519371700 / +549~(0342)~5243760}                     % dato opcional, elimine la linea si no desea el dato
+\email{dncampo@gmail.com}                                 % dato opcional, elimine la linea si no desea el dato
+\homepage{github.com/dncampo}                           % dato opcional, elimine la linea si no desea el dato
+\extrainfo{Date of birth: 05 March 1985\\Based in Antibes, France\\Résumé version: \monthyeardate\today}                   % dato opcional, elimine la linea si no desea el dato
+
+%\photo[90pt][0pt]{./pics/dncampo_sinc201403_squared.jpg}
+%\photo[70pt][0pt]{./pics/dncampo_fiesta_avature.jpg}          
+\photo[85pt][0pt]{./photo/dncampo_inn_02.jpg}          
+% para mostrar etiquetas numericas en la bibliografia (por omision no se muestran etiquetas), solo es util si desea incluir citas en en CV
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+\newcommand{\UTN}{Universidad Tecnol\'ogica Nacional}
+\newcommand{\FRSFUTN}{Facultad Regional Santa Fe, \UTN}
+\newcommand{\SFAR}{Santa Fe, Argentina}
+\newcommand{\FICHUNL}{Facultad de Ingenier\'{\i}a y Cs. H\'{\i}dricas, Universidad Nacional del Litoral}
+\newcommand{\UPM}{Universidad Polit\'ecnica de Madrid, Spain}
+
+
+\newdateformat{monthyeardate}{%
+\monthname[\THEMONTH] \THEYEAR}
+
+% bibliografia con varias fuentes
+%\usepackage{multibib}
+%\newcites{book,misc}{{Libros},{Otros}}
+%----------------------------------------------------------------------------------
+%            Contents
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                     % para redactar el CV en chino usando CJK
+\maketitle
+
+%
+\section{Career objectives}
+%Lines starting October 2023
+Dynamic, team-oriented systems engineering professional with a Ph.D. in Computational Intelligence, committed to lifelong learning and technological advancement. Eager to contribute to applied projects that drive social impact through AI innovations, including Machine Learning and Generative AI, while fostering open, collaborative environments. Dedicated to leveraging creative problem-solving and embracing diverse perspectives to drive team success.
+
+
+%Lines from 2022-2023
+%Innate team player with a PhD in Computer Science who pursues continuous growth. Looking forward to making contributions in applied computing, specifically related to IoT and Machine Learning. Curious and adventurous with passion for hiking, cultures and traveling. Amateur football and chess player.
+
+%Lines previous 2022
+%Hard-working and analytical thinker with strong foundations in mathematics, probability and computer science. Passionate about languages and traveling. Seeking to leverage and boost acquired academic knowledge, mainly in Machine Learning and Blockchain, to solve real life problems. Innate team player who pursues continuous and steady professional growth as well as personal and team development.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WORKING EXPERIENCE STARTS
+\bigskip
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Working experience}
+\cventry{11/2022 -- present}{Senior technical expert and evangelist at ``FIWARE Foundation''}{}{}{At FIWARE, he applies his expertise in algorithm analysis, AI/ML, and distributed systems to enhance open-source software solutions. He has made contributions to several key projects. 
+	Also, he chairs the Machine Learning Task Force in FIWARE community, orchestrating regular meetings to foster AI discourse within the community. His leadership aims to develop a new Reference Architecture for integrating ML into FIWARE solutions, alongside the publication of relevant manuscripts and conducting AI-focused webinars.
+}{Role: Technical expert, technology evangelist}
+\cventry{02/2020 -- 08/2021}{Applied research engineer at ``Onhys''}{}{}{Developing an integration system for automatic data treatment of crowds behavior. This includes, but is not limited to, the design of software architecture and software developing for automatic calibration of a crowd simulator. Also, the combination of different sources of information (as video and IoT analysis regarding the crowd trajectories) using elements of Machine Learning is an important part of job activities.}{Role: Systems engineer, applied researcher}
+%\cventry{06/2020 -- present}{Consultant engineer at ``Instituto Ciudades del Futuro''}{}{}{Part of the team that helps local companies and organizations from Latin America, specially in Argentina, to devise and implement IoT techology to disrupt their business. The main activity is to guide companies to achieve their technological goals using FIWARE}{Role: Consultant engineer, FIWARE Expert}
+
+\cventry{08/2019 -- 01/2020}{Consultant engineer at ``Alten''}{}{}{Solve real life problems using machine learning. Developing models for classification and data analysis. Creation of data analysis reports }{Role: Data scientist}
+\cventry{10/2018 -- 04-2019}{Sr. Developer at ``Igara Studio''}{}{}{Design and implementation of features and bug correction of Aseprite implemented in C++}{Role: Developer}
+\cventry{09/2016 -- 12/2018}{Sr. Developer at ``Avature''}{}{}{Design and implementation of features and bug correction of a SaaS system using PHP, MySQL, JavaScript}{Role: Developer}
+\cventry{04/2012 -- 09/2016}{PhD Student in Engineering with a CONICET scholarship}{\textit{Signals, Systems and Computational Intelligence}}{}{\FICHUNL, \SFAR}{}
+%\cventry{March 2012}{Systems Engineering}{}{\FRSFUTN, Santa Fe, Argentina}{}{}  
+\cventry{03/2011 -- 03/2012}{Internship at ``Tribunal de cuentas de la provincia de Santa Fe''}{}{}{Maintenance of a legacy system in PHP and MySQL. Developing a new system in Java}{Role: Developer\\Supervisor: Lic. Graciela Forzani}
+\cventry{03/2004 -- 12/2007}{Scolarship at ``Systems Laboratory'' at \FRSFUTN}{}{}{Maintenance of hardware and software}{Role: Systems and network administrator\\Supervisor: Eng. Carlos Giorgetti}
+\bigskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% EDUCATION STARTS
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education}
+\cventry{October 2024 -- present}{PhD in Telematics Systems Engineering}{Design and Implementation of Architectures for AI-Powered Digital Twins}{}{Full title: ``Diseño e Implementación de Arquitecturas para el Desarrollo de Gemelos Digitales Potenciados por Inteligencia Artificial Generativa mediante Datos de Contexto, Grafos de Conocimiento y Datos Enlazados''}{\UPM}{}
+\cventry{July 2022}{Boot-camp: Developer in Artificial Intelligence}{}{Project subject: ``Detection of skin diseases in images using deep learning algorithms''}{Le Wagon, Nice, France}{Graduation date: July/2022}
+\cventry{April 2019}{PhD in Engineering}{\textit{Signals, Systems and Computational Intelligence}}{Thesis subject: ``Validation of Clustering Algorithms''}{\FICHUNL, \SFAR}{Graduation date: April/2019}
+\cventry{March 2012}{Systems Engineering}{}{\FRSFUTN, Santa Fe, Argentina}{}{}  
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Teaching qualifications and research experience  STARTS
+\bigskip
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Teaching qualifications and research experience}
+\subsection{Teaching}
+\cventry{06/2021 -- 08/2021}{Teaching Professor}{Predictive algorithms in Data Science}{Diplomado en Ciencias de Datos}{28 hs}{Escuela de Negocios, Fundación Libertad.}
+\cventry{09/2010 -- 07/2019}{Teaching Assistant}{Competitive Programming}{}{}{\FRSFUTN, \SFAR.}
+\cventry{05/2010 -- 03/2012}{Teaching Assistant}{Operating Systems}{}{}{\FRSFUTN, \SFAR.}
+\cventry{02/2006 -- 03/2008}{Teaching Assistant}{Programming paradigms}{}{}{\FRSFUTN, \SFAR.}
+
+
+% Proyectos FINAL de CARRERA que dirijo
+%\subsection{Assistance in students formation}
+%\cventry{06/2016 -- Present}{Final Project Advisor}{}{}{}{\FRSFUTN, \SFAR.}
+
+\bigskip
+\subsection{Research}
+\cventry{04/2012 -- 04/2019}{Graduate Research Fellow}{PhD student}{Research Institute for Signals, Systems and
+	Computational Intelligence}{Facultad de Ingeniería y Cs. Hídricas, Universidad Nacional del Litoral, Consejo Nacional de Investigaciones Científicas y Técnicas, Santa Fe, Argentina}{Advisor: Georgina S. Stegmayer\newline{} Co--Advisor: Diego H. Milone}
+\cventry{12/2011 -- 09/2012}{Undergraduate Research Fellow}{}{Project subject: ``Stability analysis of clustering solutions in Bioinformatics''}{\FRSFUTN, \SFAR}{Advisor: Georgina Stegmayer}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PUBLICATIONS STARTS
+\bigskip
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Publications}
+\cventry{2025}{Campo, David Nazareno; Conde, Javier; Alonso, Álvaro; Huecas, Gabriel; Salvachúa, Joaquín; Reviriego, Pedro}{``Real-time Spatial Retrieval Augmented Generation for Urban Environments''}{Under major revision (journal submission)}{arXiv preprint: \href{https://doi.org/10.48550/arXiv.2505.02271}{https://doi.org/10.48550/arXiv.2505.02271}, Year: {2025}, Subjects: {cs.AI}}{}
+\cventry{2025}{Fu, Tairan; Campo, David Nazareno; Coronado-Blázquez, Javier; Conde, Javier; Reviriego, Pedro; Lombardi, Fabrizio}{``Stochastic Streets: A Walk Through Random LLM Address Generation in Four European Cities''}{Computer, IEEE}{DOI: \href{https://arxiv.org/abs/2509.12914}{https://doi.org/10.1109/MC.2025.3611067}, Status: {in press}, Year: {2025}}{}
+\cventry{2016}{Campo, David; Stegmayer, Georgina; Milone Diego}{``A new index for clustering validation with overlapped clusters''}{Expert Systems with Applications, Elsevier}{DOI: \href{http://dx.doi.org/10.1016/j.eswa.2016.08.021}{http://dx.doi.org/10.1016/j.eswa.2016.08.021}, Year: {2016}, Volume: {64}, Pages: {549--556}}{}
+\cventry{2014}{Campo, David; Stegmayer, Georgina; Milone Diego}{``Análisis de estabilidad en clusters solapados''}{Revista Iberoamericana de Inteligencia Artificial}{Number: 53, Volume: 17, Pages: 78--89}{}{}
+\cventry{2013}{Campo, David; Stegmayer, Georgina; Milone Diego}{``Nuevo índice para el análisis de estabilidad en clusters solapados''}{Simposio Argentino de Inteligencia Artificial. 42 Jornadas Argentinas de Inform\'atica}{ISSN: 1850--2784. Pages: 24--35}{Córdoba, Argentina}
+\cventry{2012}{Campo, David; Rindisbacher, Anibal}{``Análisis de estabilidad de soluciones de Clustering en bioinformática''}{$15^{avo}$ Concurso de trabajos estudiantiles. 41 Jornadas Argentinas de Inform\'atica}{ISBN: 1850--2946. Pages: 26--40}{La Plata, Buenos Aires, Argentina}	
+\cventry{2011}{Campo, David; Guti\'errez, Mar\'ia; Vega, Jorge; Roa, Jorge; Stegmayer, Georgina; Loyarte, Ariel}{``Operaci\'on de una Planta de Nivel. Evaluaci\'on de una Estrategia de Control basada en Agentes Inteligentes''}{$12^{th}$ AST Argentine Symposium on Technology. 40 Jornadas Argentinas de Inform\'atica}{ISSN: 1850--2806 }{}{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TECHNICAL SKILLS START
+\bigskip
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\cvitemwithcomment{Language}{Level}{Comments}
+\bigskip
+\section{Technical skills}
+\cventry{}{Programming Languages}{Basic, C/C++, Java, Matlab/GNU Octave, ProLog, Python, R, Shell Scripting (bash)}{}{}{}
+\cventry{}{Project Management \& Documentation}{Latex, SVN, GIT}{}{}{}
+\cventry{}{Programming Techniques \& Algorithm Design}{Dynamic Programming, Backtracking, Greedy Algorithms, Graph algorithms, Geometric Programming}{}{}{}
+\cventry{}{Iot and Blockchain}{FIWARE Expert, Arduino, Raspberry Pi}{}{}{}
+\cventry{}{Blockchain and DeFi}{Consensus algorithms, Smart Contracts}{}{}{}
+\cventry{}{Concepts}{Artificial Intelligence, Machine Learning, Data Mining, Clustering}{}{}{}
+
+
+
+%\bigskip
+%\section{Latest graduate courses taken}
+%\cventry{2014}{Selected Topics in machine learning}{\FICHUNL}{\SFAR}{Duration: 90 h}{Approved}
+%\cventry{2014}{Optimization: Theory, methods and applications}{Facultad de Ingeniería Química, Universidad %Nacional del Litoral}{\SFAR}{Duration: 15 h}{Approved}
+%\cventry{2014}{Advanced signal analysis and processing}{\FICHUNL}{\SFAR}{Duration: 90 h}{Approved}
+%\cventry{2012}{Control of Linear Systems}{\FICHUNL}{\SFAR}{Duration: 90 h}{Approved}
+%\cventry{2012}{Automatic Speech Recognition}{\FICHUNL}{Santa Fe, Argentina}{Duration: 60 h}{Approved}
+%\cventry{2012}{Writing of scientific articles in English}{\FICHUNL}{\SFAR}{Duration: 90 hs}{Approved}
+%\cventry{2012}{Applied mathematics}{\FICHUNL}{\SFAR}{Duration: 90 h}{Attended}
+%\cventry{2012}{Artificial Neural Networks and Fuzzy Logic in Engineering}{\FRSFUTN}{\SFAR}{Duration: 90 h}{Aproved}
+%\cventry{...}{Several other courses}{}{}{}{}
+
+%\cventry{2014}{Applied Statistics}{Facultad de Ingeniería Química, Universidad Nacional del Litoral}{Santa Fe, Argentina}{Duration: 60 hs.}{Grade: 10$/$10}
+%\cventry{2014}{Optimization: theory and methods}{Facultad de Ingeniería Química, Universidad Nacional del Litoral}{Santa Fe, Argentina}{Duration: 15 hs.}{Grade: 9$/$10}
+%\cventry{2014}{Statistical signal processing}{Facultad de Ingeniería, Universidad Nacional de Entre Ríos}{Oro Verde, Argentina}{Duration: 90 hs.}{Attendant}
+
+%\bigskip
+%\section{Professional online courses completed}
+%\cventry{05/2016}{Effective Problem-Solving and Decision-Making}{University of California, Irvine}{Coursera}{}
+%{Instructor: Rob Stone\\
+	%URL: \href{https://www.coursera.org/learn/problem-solving}{https://www.coursera.org/learn/problem-solving}}
+%\cventry{03/2016}{Machine Learning}{Stanford University}{Coursera}{}
+%{Instructor: Andrew Ng\\
+	%URL: \href{https://www.coursera.org/learn/machine-learning/}{https://www.coursera.org/learn/machine-learning/}}
+%%\cventry{}{...}{}{}{}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Presentations at congresses, conferences, workshops and seminars STARTS
+\bigskip
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Presentations at congresses, conferences, workshops and seminars}
+
+
+\cventry{05/2025}{FIWARE Global Summit XI. Tech Training}{``Talking with your Smart Solution''}{Rabat, Morocco}{Expositor}{Presented a smart agriculture use case developed to integrate Generative AI (LLM) into a FIWARE smart solution, allowing to interact with technical content in natural language. A link to the slides and code: \url{https://github.com/dncampo/fgs2025-talking-with-smart-solution}.}{}
+
+\cventry{05/2025}{FIWARE Global Summit XI. Tech Training}{``ML, MLOps \& FIWARE.''}{Rabat, Morocco}{Expositor}{Showcase an approach into integrating ML and MLOps in FIWARE workflow, using entities and data models to represent objects and artifacts related to ML and its life cycle. A link to the slides and code: \url{https://github.com/dncampo/fgs2025-digit-recognizer-ml/tree/main/slides}.}{}
+
+
+\cventry{09/2024}{FIWARE Global Summit X. Tech Training}{``Getting value out of your context Data: Integrating ML models into FIWARE applications''}{Naples, Italy}{Expositor}{Presented a health use case developed to integrate FIWARE and ML. A link to the slides and code: \url{https://github.com/dncampo/FGS2024_ML-training/tree/main}.}{}
+
+
+\cventry{09/2024}{FIWARE Global Summit X. Tech and Trends}{``Integration of LLMs within the Context Broker''}{Naples, Italy}{Expositor along with Javier Conde Diaz}{Presented a novel method to connect LLMs with NGSI API and take advantage of NGSI to perform a Real-Time Spatial RAG over tourism data. A link to the agenda: \url{https://www.fiware.org/global-summit/agenda/}, link to slides and code \url{https://github.com/ging/Poc_LLM_CB_FIWARE-Naples}.}{}
+
+
+\cventry{09/2024}{FIWARE Global Summit X. Tech and Trends}{``Roadmap and activities within the AI/ML Working Group''}{Naples, Italy}{Expositor along with Joaquin Salvachua}{Presented the activities performed and the plan for the year ahead of the FIWARE AI/ML Working Group, during the 10th edition of the FGS. A link to the agenda: \url{https://www.fiware.org/global-summit/agenda/}.}{}
+
+\cventry{09/2024}{FIWARE Webinar}{``Enhancing Tourism with Smart Technologies''}{YouTube}{Expositor along with Javier Conde Diaz}{This session delves into the integration of FIWARE with the powerful capabilities of Large Language Models (LLMs) equipped with Retrieval Augmented Generation (RAG). It explores an innovative architecture that leverages FIWARE's NGSI API to enrich the contextual information available to tourists. A link to video on YouTube \url{https://www.youtube.com/watch?v=SHUnETH4wDo}.}{}
+
+\cventry{06/2023}{FIWARE Global Summit IX. Disruptive Tech and Trends: AI and Machine Learning}{``FIWARE AI/ML roadmap activities''}{Vienna, Austria}{Expositor along with Joaquin Salvachua}{Presented the activities performed and the plan for the year ahead of the FIWARE AI/ML Working Group, during the 9th edition of the FGS. A link to the agenda: \url{https://www.fiware.org/fiware-summit/vienna-2023/FGS23_Programme.pdf}.}{}
+
+\cventry{09/2013}{XIV Argentine Symposium on Artificial Intelligence ($42$ JAIIO)}{``Análisis de estabilidad de soluciones de Clustering en bioinformática''}{Córdoba, Argentina}{}{Author/Expositor}{}
+\cventry{08/2012}{$15^{avo}$ Concurso de trabajos estudiantiles ($41$ JAIIO)}{``Nuevo índice para el análisis de estabilidad en clusters solapados''}{La Plata, Buenos Aires, Argentina}{}{Author/Expositor}{}
+\cventry{10/2012}{Seminar at \FRSFUTN}{``Introduction to Version Control Systems''}{Campo D., Del Castillo J. , Fausd J.}{Santa Fe, Argentina}{Lecturer}{}
+\cventry{10/2011}{Seminar at \FRSFUTN}{``Introduction to Version Control Systems''}{Campo D., Del Castillo J. , Fausd J.}{Santa Fe, Argentina}{Lecturer}{}
+
+
+
+\bigskip
+\section{Participation in Research Grants}
+\cventry{2014 -- 2017}{``Minería de datos en bioinformática: integración y análisis basados en inteligencia computacional''}{Project PICT 2014-2627}{}{}{Role: Collaborator\\Supervisor researcher: Diego Milone}
+\cventry{2013 -- 2015}{``Minería de datos en bioinformática: un enfoque integrado basado en inteligencia computacional''}{Project PIP 2013-2015 \#117}{}{}{Role: Collaborator\\Supervisor researcher: Georgina Stegmayer, Diego Milone}
+\cventry{04/2011 -- 12/2011}{``Data Mining with Neural Networks''}{Project PID O130: UTN--FRSF}{Neural Mining: minería de datos con redes neuronales}{CIDISI--FRSF--UTN}{Role: Collaborator\\ Supervisor researcher: Georgina Stegmayer}
+\cventry{2007 -- 2008}{``Identifying Interorganizational Networks: A Factor Based Approach''}{Project INV-1962}{Proyecto Universia-Banco Río para la investigación aplicada al desarrollo regional}{INGAR--CONICET}{Role: Collaborator\\Supervisor researcher: Marcelo Montagna}
+
+%\cventry{2013 -- 2015}{``Minería de datos en bioinformática: un enfoque integrado basado en inteligencia computacional''}{Project PIP 2013-2015 117}{}{}{Role: Collaborator\\Supervisor researcher: Georgina Stegmayer, Diego Milone}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% NEW PAGE
+%%\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\bigskip
+\section{Participation in contests}
+\cventry{continuously}{``Several online programming/mathematics contests''}{SPOJ, UVa, Google CodeJam, Codefights, HackerRank, Brilliant}{}{}{}
+\cventry{10/2015}{``Latinamerican Rally of Innovation''}{(Rally Latinoamericano de Innovación)}{Consejo Federal de Decanos de Facultades de Ingeniería (CONFEDI)}{}{Role: Contestant.\\Duration: 28h.\\Position: $1^{st}$, Innovation category}
+\cventry{09/2015}{``TecnoMate 2015''}{Programming contest}{Department of Systems}{\FRSFUTN}{Role: Organization, problem setter. \\Duration: 4h.}
+\cventry{10/2014}{``TecnoMate 2014''}{Programming contest}{Department of Systems}{\FRSFUTN}{Role: Organization, problem setter\\Duration: 4h.}
+\cventry{11/2013}{``TecnoMate 2013''}{Programming contest}{Department of Systems}{\FRSFUTN}{Role: Organization, problem setter\\Duration: 4h.}
+\cventry{10/2010}{``ACM International Collegiate Programming Contest''}{Programming contest}{ACM}{IBM}{Role: Contestant. \\Duration: 5h.}
+\cventry{08/2010}{``Programming Contest -- CNEISI''}{}{Department of Systems}{\FRSFUTN}{Role: Contestant. \\Duration: 5h. Position: $2^{nd}$}
+\cventry{10/2009}{``ACM International Collegiate Programming Contest''}{Programming contest}{ACM}{IBM}{Role: Contestant. \\Duration: 5h.}
+\cventry{09/2009}{``$1^{st}$ Provincial contest of competitive programming''}{($1^{er}$ Encuentro provincial Santafesino de programación competitiva)}{Department of Systems, \FRSFUTN}{Colegio de ingenieros especialistas de la provincia de Santa Fe, Gobierno de Santa Fe -- Ministerio de la producción}{Role: Contestant.\\Duration: 3.5h. \\Position: $2^{nd}$.}
+\renewcommand{\listitemsymbol}{-~}            % para cambiar el simbolo para las listas
+
+%\section{Extra 2}
+%\cvlistdoubleitem{Tema 1}{Tema 4}
+%\cvlistdoubleitem{Tema 2}{Tema 5\cite{book1}}
+%\cvlistdoubleitem{Tema 3}{}
+
+% Las publicaciones tomadas de un archivo de BibTeX sin usar multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{publications}                   % 'publications' es el nombre del archivo BibTeX
+
+% Las publicaciones tomadas de un archivo BibTeX usando el paquete multibib
+%\section{Publicaciones}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}              % 'publications' es el nombre del archivo BibTeX
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}              % 'publications' es el nombre del archivo BibTeX
+
+\bigskip
+\section{Languages}
+\cventry{}{Spanish}{}{}{}{Native}
+\cventry{}{English, French, Italian}{}{}{}{Fluent}
+\cventry{}{Portuguese}{}{}{}{Advanced}
+\cventry{}{German}{Beginner}{}{}{}
+%\cventry{}{Esperanto}{}{}{}{Beginner}
+%\cventry{}{Latin}{}{}{}{Beginner}
+
+%\newpage%
+
+
+\section{Interests \& hobbies}
+\cvitem{}{Learning, reading, sports \& outdoor activities, languages \& cultures, travel, hiking, networking.}
+
+
+%\cvitem{Programming}{I have a real passion for programming and mathematics constests,}
+%\cvitem{Soccer}{and all kind of social activities.}
+%\cvitem{Chess}{I also enjoy playing strategic and logical games and puzzles, like chess.}
+%\cvitem{Languages}{I am passionate about learning new languages and digging into cultures.}
+%\cvitem{DIY Electronics}{I have performed several home projects using DIY platforms like Arduino and Raspberry Pi.}
+%\cvitem{Travel}{``The real voyage of discovery consists not in seeking new landscapes, but in having new eyes''. \textit{Valentin Louis Georges Eugène Marcel Proust}}
+%
+%\bigskip
+%\section{References}
+%\cvitem{}{References available upon request.}
+
+\end{document}
+
+%% EOF `template-es.tex'.
+
